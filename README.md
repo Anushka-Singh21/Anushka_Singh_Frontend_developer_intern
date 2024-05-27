@@ -1,8 +1,48 @@
-# React + Vite
+Assignment for Frontend Developer Intern
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project Setup
+This project is a simple web application built using React. To run the project locally, follow the instructions below:
 
-Currently, two official plugins are available:
+Prerequisites
+Node.js and npm installed on your computer
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Getting Started
+Clone the repository on your local machine
+git clone https://github.com/Anushka-Singh21/Anushka_Singh_Frontend-Developer-Intern.git
+
+Navigate to the project directory
+cd your-repo
+Install the dependencies
+npm install
+Start the development server
+
+npm start
+Open your web browser and navigate to http://localhost:3000 to view the application.
+
+Project Structure
+The project follows a standard React project structure, with the following notable directories 
+
+
+node_modules: Contains all project dependencies.
+
+public: Contains static assets like HTML files, images, etc.
+
+src: Contains the source code of the project.
+
+assets: Contains images and other static assets.
+
+components: Contains all reusable components of the project.
+
+styles: Contains the stylesheets of the project.
+
+.eslintrc.cjs: Contains the ESLint configuration.
+
+.gitignore: Contains the files to be ignored by Git.
+
+index.html: The main HTML file of the project.
+
+package-lock.json: Contains the exact versions of all dependencies.
+
+package.json: Contains the project metadata and scripts.
+
+README.md: This file.
