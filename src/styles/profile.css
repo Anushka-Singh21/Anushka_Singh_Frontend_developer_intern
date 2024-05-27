@@ -1,0 +1,128 @@
+.profile {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile--header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .edit {
+    background: #dde6ed;
+    padding: 12px;
+    border-radius: 10px;
+    color: #969396;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .edit .icon {
+    font-size: 20px;
+    transition: 0.5s ease-in-out;
+  }
+  
+  .user--profile {
+    width: 90%;
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user--detail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .user--image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .username {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  .profession {
+    color: #969396;
+    font-size: 16px;
+  }
+  
+  .employee--month {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .employee--image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .employee-text {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .user-courses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .user-courses .course-card {
+    flex: 1 0 150px;
+    background: #f8f8f8;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .course-card .title {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .course-card .desc {
+    color: #969396;
+    font-size: 14px;
+  }
+  
+  .employee--month .employee-text {
+    background: #dde6ed;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #969396;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 20px;
+  }
+  
+  .employee--month .employee-text::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #dde6ed;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
